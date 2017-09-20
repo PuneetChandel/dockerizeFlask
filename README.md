@@ -1,5 +1,7 @@
-How to run :
+To run :
+
 docker build -t flasktag1.1 .
+
 docker run --name="flaskapp-Node1" -p 2001:2001 -dti flasktag1.1
 
 http://0.0.0.0:2001/flaskapp
