@@ -6,7 +6,7 @@ docker run --name="flaskapp-Node1" -p 2001:2001 -dti flasktag1.1
 http://0.0.0.0:2001/flaskapp
 
 
-container :
+container:
 
 docker ps
 docker stop <id>
